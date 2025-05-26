@@ -5,5 +5,6 @@ codeforces Problem tags 토글 하는 extension입니다.
 실행환경: naver whale
 
 ![image](./toggleBtn.png)
+
 ![image](./before.png)
 ![image](./after.png)
