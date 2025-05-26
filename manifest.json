@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Codeforces Element Remover",
+  "version": "1.0",
+  "description": "Remove an element on Codeforces when icon is clicked.",
+  "permissions": ["scripting", "activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://codeforces.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
